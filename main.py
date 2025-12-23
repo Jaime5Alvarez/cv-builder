@@ -1,10 +1,30 @@
+import argparse
 import subprocess
 import sys
 from pathlib import Path
 
 
 def main():
-    yaml_path = Path("cvs-yml/jaime_alvarez.yml")
+    parser = argparse.ArgumentParser(
+        description="Generate CV using RenderCV from YAML file",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  python main.py                           # Uses default: cvs-yml/jaime_alvarez.yml
+  python main.py cvs-yml/example.yml       # Generates CV from example.yml
+  python main.py path/to/custom.yml        # Generates CV from custom file
+        """
+    )
+    
+    parser.add_argument(
+        "yaml_file",
+        nargs="?",
+        default="cvs-yml/jaime_alvarez.yml",
+        help="Path to the YAML CV file (default: cvs-yml/jaime_alvarez.yml)"
+    )
+    
+    args = parser.parse_args()
+    yaml_path = Path(args.yaml_file)
 
     if not yaml_path.exists():
         print(f"Error: File not found {yaml_path}")
