@@ -1,0 +1,100 @@
+cv:
+  name: Jaime Alvarez
+  label: Software Developer
+  location: Calahorra, La Rioja, España
+  email: jaime5alvarez5h@gmail.com
+  phone: "+34 651475235"
+  photo: jaime_alvarez_photo.jpeg
+  social_networks:
+    - network: LinkedIn
+      username: jaime-alvarez-b0441b241
+    - network: GitHub
+      username: Jaime5Alvarez
+  
+  sections:
+    "About Me":
+      - 'Full-stack software developer with **5+ years of experience** building innovative solutions that advance technology and make an impact.'
+      - 'Specialized in **system design and architecture**: designing scalable microservices, implementing clean architecture, domain-driven design, and CQRS patterns.'
+      - 'Expert in **AI development**: automation systems using AI frameworks, RAG systems, multimodal chatbots with Tools, and MCP servers.'
+      - 'Proficient in modern tech stack: **JavaScript, TypeScript, React, Next.js, Python, AWS, Azure, FastAPI, Django**, and more.'
+      - 'Passionate about building **end-to-end solutions** with robust architecture, ensuring scalability and maintainability from front to back.'
+    experience:
+      - company: Avalora Tecnologías de la Información
+        position: Full Stack Developer
+        location: Madrid, Comunidad de Madrid, España (Híbrido)
+        start_date: 2024-07
+        end_date: present
+        highlights:
+          - Provide full-stack development services to a major pharmaceutical company (insudpharma)
+          - Built AI-powered document processing system using Azure Document Intelligence, reducing manual data entry time by 70%
+          - Developed RAG (Retrieval-Augmented Generation) systems with Cohere Reranker and multimodal chatbots handling 1000+ daily queries with 95% accuracy
+          - Designed and implemented scalable microservices architecture following clean architecture and domain-driven design patterns
+          - Implemented CQRS pattern with Amazon EventBridge, SQS, and Redis, improving system throughput by 40%
+          - Reduced API response time by 50% through caching strategies with Redis and optimized database queries
+          - Developed frontend applications using Next.js, React.js, TypeScript, Zustand, and Tailwind CSS with 100% responsive design
+          - Implemented secure authentication systems using OAuth 2.0, JWT, Better Auth and Microsoft Entra ID, supporting 500+ concurrent users
+          - Applied TDD methodology achieving 85%+ code coverage with comprehensive unit and integration testing
+          - Deployed containerized applications with Docker on AWS and Azure, reducing deployment time by 60%
+      
+      - company: MDB Tech Solutions
+        position: Fullstack Developer
+        location: Madrid, Comunidad de Madrid, España (Remoto)
+        start_date: 2021-07
+        end_date: 2024-07
+        highlights:
+          - Worked for a leading financial advisory firm (Efpa Spain) serving 5000+ active users
+          - Developed 20+ new features across API, ERP, and web applications, increasing user productivity by 35%
+          - Optimized database queries with Prisma ORM and MySQL, reducing page load times by 45%
+          - Implemented Redis caching solution, decreasing server costs by 30% and improving response times
+          - Applied clean architecture and domain-driven design, reducing code maintenance time by 40%
+          - Implemented CQRS pattern for command-query separation, handling 50K+ daily transactions
+          - Built responsive frontend applications with React.js achieving 98% cross-browser compatibility
+          - Developed robust backend services using Django and Express.js with 99.9% uptime
+          - Applied TDD methodology with 80%+ code coverage, reducing production bugs by 60%
+          - Managed containerized applications using Docker, streamlining deployment process
+          - Resolved 200+ critical bugs and provided ongoing maintenance for legacy systems
+          - Collaborated with 5+ cross-functional teams using Git workflows and code reviews
+      
+      - company: Freelance
+        position: Fullstack Developer
+        location: Calahorra, La Rioja, España (Remoto)
+        start_date: 2019-04
+        end_date: 2021-05
+        highlights:
+          - Served as Full-Stack Developer for 8+ companies delivering 15+ successful projects
+          - Built complete web applications from the ground up using Django and Express.js, supporting 2000+ combined users
+          - Developed modern, responsive frontend applications with React.js, Vite.js, and TypeScript achieving 100% mobile compatibility
+          - Designed and optimized PostgreSQL databases with Prisma ORM, improving query performance by 50%
+          - Enhanced existing platforms adding 30+ new features and improving user satisfaction by 40%
+          - Improved application scalability to handle 5x traffic increase through architecture optimization
+          - Containerized 10+ applications using Docker, reducing deployment time from hours to minutes
+          - Achieved 99.8% uptime across all deployed applications through proactive monitoring and maintenance
+          - Resolved 150+ technical issues across various services and APIs with average resolution time of 24 hours
+          - Delivered all projects on time and within budget, maintaining 100% client satisfaction rate
+          - Managed source code with Git and collaborated through GitHub with distributed teams
+    
+    technologies:
+      - label: System Design & Architecture
+        details: Microservices Architecture, Clean Architecture, Domain-Driven Design (DDD), CQRS, Event-Driven Architecture, Scalable Systems Design, API Design
+      - label: Design Patterns
+        details: Repository Pattern, Observer Pattern, Factory Pattern, Strategy Pattern, Facade Pattern, Event Bus Pattern, Dependency Injection, Singleton, Adapter Pattern
+      - label: AI & Machine Learning
+        details: LangChain, Azure AI, Azure AI Foundry, Azure Document Intelligence, GPT, OpenAI Embeddings, RAG (Retrieval-Augmented Generation), Cohere Reranker, AI SDK Vercel, MCP Servers, PgVector, Vector Search
+      - label: Backend Development
+        details: FastAPI, Node.js, Express, Django, Python, SQLAlchemy, Drizzle ORM, Prisma, Supabase
+      - label: Frontend Development
+        details: Next.js, React.js, TypeScript, JavaScript, Tailwind CSS, HTML, CSS, Zustand
+      - label: Cloud & Infrastructure
+        details: AWS (EventBridge, S3, SQS), Microsoft Azure, Azure AI Foundry, Docker
+      - label: Databases
+        details: PostgreSQL, Supabase, PgVector, Redis, SQL, MySQL
+      - label: Testing & Quality
+        details: Unit Testing, Integration Testing, Test-Driven Development (TDD)
+      - label: Authentication & Security
+        details: OAuth 2.0, JWT (JSON Web Tokens), Supabase Auth, Better Auth, Microsoft Entra ID, Graph Explorer, Session Management, Token-based Authentication
+      - label: Version Control
+        details: Git, GitHub
+    
+    languages:
+      - label: Languages
+        details: Spanish (Native), English (Professional Working Proficiency)

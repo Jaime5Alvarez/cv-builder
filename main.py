@@ -4,7 +4,7 @@ from pathlib import Path
 
 
 def main():
-    yaml_path = Path("cvs-yml/example.yml")
+    yaml_path = Path("cvs-yml/jaime_alvarez.yml")
 
     if not yaml_path.exists():
         print(f"Error: File not found {yaml_path}")
