@@ -10,9 +10,9 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python main.py                           # Uses default: cvs-yml/jaime_alvarez.yml
-  python main.py cvs-yml/example.yml       # Generates CV from example.yml
-  python main.py path/to/custom.yml        # Generates CV from custom file
+  uv run main.py                           # Uses default: cvs-yml/jaime_alvarez.yml
+  uv run main.py cvs-yml/example.yml       # Generates CV from example.yml
+  uv run main.py path/to/custom.yml        # Generates CV from custom file
         """
     )
     
