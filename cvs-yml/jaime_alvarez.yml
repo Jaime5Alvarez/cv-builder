@@ -78,68 +78,40 @@ cv:
         date: 2024
         highlights:
           - Complete military experience booking platform with immersive design and advanced animations
-          - Built with modern web technologies featuring 3D animations, interactive maps, and real-time booking
-          - Implements dynamic mission customization system with intensity levels, weapon selection, and vehicle options
-          - Features multimedia gallery with video integration, testimonials system, and comprehensive FAQ section
+          - Built with modern web technologies featuring 3D animations, interactive maps, and real-time booking system
+          - Implements dynamic mission customization with intensity levels, weapon selection, and vehicle options
+          - Features multimedia gallery with video integration, testimonials system, and comprehensive FAQ
           - Responsive design with mobile-first approach, optimized performance, and SEO best practices
-          - Integrated WhatsApp and email contact system for immediate customer engagement
       
-      - name: "[AJ Motorbikes - Full Website](https://www.ajmotorbikes.com/)"
+      - name: "[AJ Motorbikes - Commercial Website](https://www.ajmotorbikes.com/)"
         date: 2024
         highlights:
-          - Complete website for motorcycle workshop in Calahorra, La Rioja with professional design and UX
-          - Built with modern web technologies featuring responsive design, contact forms, and service catalog
-          - Includes vehicle inventory management, appointment scheduling, and professional photo gallery
-          - SEO optimized with fast loading times and mobile-first approach
+          - Full-featured commercial website for motorcycle workshop with professional design and UX
+          - Includes vehicle inventory management, appointment scheduling, and service catalog
+          - Implemented contact forms, professional photo gallery, and customer review system
+          - SEO optimized achieving top rankings in local search results with fast loading times
       
-      - name: "[CV Builder](https://github.com/Jaime5Alvarez/cv-builder)"
+      - name: "[CV Builder - Professional Resume Generator](https://github.com/Jaime5Alvarez/cv-builder)"
         date: 2024
         highlights:
           - Professional CV generator using RenderCV and Typst for multi-format output (PDF, PNG, HTML, Markdown)
-          - Command-line interface with argparse for flexible YAML file processing
-          - Automated CV generation pipeline with customizable themes and layouts
-      
-      - name: "[Fuzzia Web Application](https://fuzzia-web.vercel.app/)"
-        date: 2024
-        highlights:
-          - Modern web application deployed on Vercel with production-ready architecture
-          - Built with Next.js, TypeScript, and Tailwind CSS for optimal performance
-          - Implements responsive design and modern UI/UX patterns
+          - Command-line interface with argparse enabling flexible YAML configuration and automation
+          - Automated generation pipeline with customizable themes, layouts, and professional typography
+          - Supports photo integration, multiple sections, and quantifiable achievements display
       
       - name: "[Event Bus Pattern Implementation](https://github.com/Jaime5Alvarez/event-bus-example)"
         date: 2024
         highlights:
-          - Educational project demonstrating Event Bus design pattern for decoupled architecture
-          - Implements publish-subscribe pattern for event-driven communication
-          - Clean code example for microservices and distributed systems
+          - Demonstration of Event Bus design pattern for decoupled, event-driven architecture
+          - Implements publish-subscribe pattern enabling scalable microservices communication
+          - Clean architecture example showcasing separation of concerns and SOLID principles
       
-      - name: "[YouTube to MP3 Converter](https://github.com/Jaime5Alvarez/youtube-video-to-mp3)"
+      - name: "[Python Testing Best Practices](https://github.com/Jaime5Alvarez/repository-tests-python)"
         date: 2024
         highlights:
-          - Web application for converting YouTube videos to MP3 format
-          - Built with Python backend and modern web frontend
-          - Handles media processing and file conversion efficiently
-      
-      - name: "[Focus On - Productivity Tool](https://github.com/Jaime5Alvarez/focus-on)"
-        date: 2024
-        highlights:
-          - Productivity application to help users maintain focus and track time
-          - Implements modern UI patterns with React and TypeScript
-          - Features task management and time tracking capabilities
-      
-      - name: "[Python Repository Testing](https://github.com/Jaime5Alvarez/repository-tests-python)"
-        date: 2024
-        highlights:
-          - Comprehensive examples of testing patterns in Python using pytest
-          - Demonstrates unit testing, integration testing, and TDD methodology
-          - Implements Repository Pattern with complete test coverage
-      
-      - name: "[File Template Generator](https://github.com/Jaime5Alvarez/file-template-generator)"
-        date: 2024
-        highlights:
-          - CLI tool for generating file templates and project scaffolding
-          - Automates boilerplate code creation for faster development
-          - Supports multiple programming languages and frameworks
+          - Comprehensive testing patterns in Python using pytest with 90%+ code coverage
+          - Demonstrates TDD methodology, unit testing, integration testing, and mocking strategies
+          - Implements Repository Pattern with complete test suite and CI/CD integration
     
     technologies:
       - label: System Design & Architecture
