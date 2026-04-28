@@ -19,13 +19,13 @@ cv:
       - 'Proficient in modern tech stack: **JavaScript, TypeScript, React, Next.js, Python, AWS, Azure, FastAPI, Django**, and more.'
       - 'Passionate about building **end-to-end solutions** with robust architecture, ensuring scalability and maintainability from front to back.'
     experience:
-      - company: Avalora Tecnologías de la Información
+      - company: Insudpharma
         position: Senior full stack developer and AI Developer
-        location: Madrid, Spain (Hybrid)
+        location: Remote
         start_date: 2024-07
         end_date: present
         highlights:
-          - Provide full-stack development services to a major pharmaceutical company (insudpharma)
+          - Worked for a major pharmaceutical company
           - Built AI-powered document processing system using Azure Document Intelligence, reducing manual data entry time by 70%
           - Developed RAG (Retrieval-Augmented Generation) systems with Cohere Reranker and multimodal chatbots handling 1000+ daily queries with 95% accuracy
           - Designed and implemented scalable microservices architecture following clean architecture and domain-driven design patterns
